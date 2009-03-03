@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;note${1: role="${2:tip/warning/sidebar/footnote}"}${3: xml:id="${4:id}"}&gt;
+	&lt;p&gt;$5&lt;/p&gt;
+&lt;/note&gt;
+$0</string>
+	<key>name</key>
+	<string>note</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>note</string>
+	<key>uuid</key>
+	<string>417C4EBC-DDFA-4836-8A53-1FAABE06958F</string>
+</dict>
+</plist>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;dml ${1:xml:id="${2:id}"} xml:lang="${3:en}" xmlns="http://purl.oclc.org/NET/dml/1.0/"${4: xmlns:dct="http://purl.org/dc/terms/"}&gt;
+	&lt;title${5: property="dct:title"}&gt;${6:title}&lt;/title&gt;
+	${7:&lt;metadata${8: about="${9:#who?}"}&gt;
+		&lt;list&gt;
+			&lt;item property="${10:dct:creator}"&gt;${11:Arnau Siches}&lt;/item&gt;$12
+		&lt;/list&gt;
+	&lt;/metadata&gt;
+	}
+	$0
+&lt;/dml&gt;</string>
+	<key>name</key>
+	<string>dml</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>dml</string>
+	<key>uuid</key>
+	<string>676D01A2-18F2-49E4-BE1C-2ED4B70CC77C</string>
+</dict>
+</plist>
